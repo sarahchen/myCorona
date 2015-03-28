@@ -1,0 +1,2 @@
+# myCorona
+For small businesses
