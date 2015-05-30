@@ -1,5 +1,7 @@
 NOTES:
 https://docs.c9.io/v1.0/docs/setting-up-mysql - mySQL in c9
+http://startbootstrap.com/template-overviews/creative/ - bootstrap template
+http://startbootstrap.com/template-overviews/full-width-pics/ - bootstrap template
 
 5-30-15:
     Start workspace
