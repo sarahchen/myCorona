@@ -1,0 +1,7 @@
+NOTES:
+https://docs.c9.io/v1.0/docs/setting-up-mysql - mySQL in c9
+
+5-30-15:
+    Start workspace
+    Learn Code
+    Create index
