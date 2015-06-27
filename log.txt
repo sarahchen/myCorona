@@ -4,6 +4,7 @@ http://startbootstrap.com/template-overviews/creative/ - bootstrap template
 http://startbootstrap.com/template-overviews/full-width-pics/ - bootstrap template
 https://www.udemy.com/learn-php-fundamentals-from-scratch/ - learn php
 https://www.udemy.com/php-mysql-tutorial/ - learn php + mySQL
+http://bootsnipp.com/snippets/featured/custom-login-registration-amp-forgot-password - login form template
 
 5-30-15:
     Start workspace
@@ -11,3 +12,6 @@ https://www.udemy.com/php-mysql-tutorial/ - learn php + mySQL
     Create index
 6-24-15
     Change Theme to "Creative"
+6-27-15
+    Add Content
+    Add SignUp functionality

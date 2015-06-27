@@ -36,6 +36,7 @@
 
 <body id="page-top">
 
+    <!-- NAVIGATION -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -61,6 +62,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="login.php">Login</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -68,12 +72,13 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <!-- MAIN PICTURE THING -->
     <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Helping Small Businesses in the Corona Community</h1>
                 <hr>
-                <p>Insert a description here!</p>
+                <p>myCorona is a nonprofit website service geared towards the Corona, Queens community that allows customers in the area to search and build loyalty with local businesses.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -236,7 +241,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Sign Up Now!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Sign Up!</a>
+                <a href="signup.php" class="btn btn-default btn-xl wow tada">Sign Up!</a>
             </div>
         </div>
     </aside>
