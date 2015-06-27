@@ -63,7 +63,7 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="login.php">Login</a>
+                        <a href="login.html">Login</a>
                     </li>
                 </ul>
             </div>
