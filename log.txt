@@ -15,3 +15,7 @@ http://bootsnipp.com/snippets/featured/custom-login-registration-amp-forgot-pass
 6-27-15
     Add Content
     Add SignUp functionality
+7-12-15
+    Add Content
+    Add Meet Creators page
+    Improve SignUp

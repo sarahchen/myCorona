@@ -57,13 +57,13 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Meet The Creators</a>
+                        <a href="meetUs.php">Meet The Creators</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="login.html">Login</a>
+                        <a href="/login/index.php">Login</a>
                     </li>
                 </ul>
             </div>
@@ -88,9 +88,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Five things to know about myCorona</h2>
                     <hr class="light">
-                    <p class="text-faded">More description stuff that we need to add/create.</p>
+                    <p class="text-faded">
+                        <ol>
+                            <li>We created myCorona to shine the spotlight on smaller businesses interested in expanding their consumer base.</li>
+                            <li>We are an informational service that allows the customer to create a relationship with local businesses in order to get the best deals and help the local economy.</li>
+                            <li>We are high school students in a program that tries to bring attention to everyday issues and create valuable solutions.</li>
+                            <li>We allow businesses to create their own page to advertise latest events and sales as well as connect to customers.</li>
+                            <li>Customers can create profiles to post reviews and receive messages from their favorite (or least favorite!) stores.</li>
+                        </ol>
+                    </p>
                     <a href="#" class="btn btn-default btn-xl">Get Started!</a>
                 </div>
             </div>
@@ -111,29 +119,35 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Service 1</h3>
-                        <p class="text-muted">Something about what we offer.</p>
+                        <h3>Discover local gems</h3>
+                        <p class="text-muted">
+                            Our entire company is based on bringing attention to these undiscovered shops! We hope to bring these businesses more foot traffic, and the customers more options on where to shop.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Service 2</h3>
-                        <p class="text-muted">Something else that we offer. </p>
+                        <h3>Build loyalty</h3>
+                        <p class="text-muted">
+                            Post reviews and pictures, and send messages to chat with business owners.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Service 3</h3>
-                        <p class="text-muted">Another thing that we offer.</p>
+                        <h3>Get rewards</h3>
+                        <p class="text-muted">
+                            Become members on the site to post rewards as a business to keep returning customers. Customers can sign up to receive exclusive benefits about discounts and deals not offered anywhere else.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Service 4</h3>
-                        <p class="text-muted">Why people should use this website yes.</p>
+                        <h3>Give back</h3>
+                        <p class="text-muted">By shopping small, you support the mom and pop shops, helping the local economy prosper.</p>
                     </div>
                 </div>
             </div>
@@ -241,7 +255,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Sign Up Now!</h2>
-                <a href="signup.php" class="btn btn-default btn-xl wow tada">Sign Up!</a>
+                <a href="login/index.php#signup" class="btn btn-default btn-xl wow tada">Sign Up!</a>
             </div>
         </div>
     </aside>

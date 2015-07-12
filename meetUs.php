@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>myCorona | Sign Up</title>
+    <title>myCorona</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -24,13 +24,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <!-- All the files that are required -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
-    <script src="js/login.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +34,7 @@
 
 </head>
 
-<body>
+<body id="page-top">
 
     <!-- NAVIGATION -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -64,13 +57,13 @@
                         <a class="page-scroll" href="index.php#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Meet The Creators</a>
+                        <a href="meetUs.php">Meet The Creators</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="index.php#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="login.html">Login</a>
+                        <a href="/login/index.php">Login</a>
                     </li>
                 </ul>
             </div>
@@ -79,46 +72,82 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <div class="text-center" style="padding:50px 0">
-    	<div class="logo">register</div>
-	    <!-- Main Form -->
-	    <div class="login-form-1">
-		    <form id="register-form" class="text-left" method="POST" action="message.php">
-			    <div class="login-form-main-message"></div>
-			    <div class="main-login-form">
-				    <div class="login-group">
-					    <div class="form-group">
-						    <label for="reg_user" class="sr-only">Username</label>
-						    <input type="text" class="form-control" id="reg_user" name="reg_user" placeholder="username">
-					    </div>
-					    <div class="form-group">
-						    <label for="reg_pass" class="sr-only">Password</label>
-						    <input type="password" class="form-control" id="reg_pass" name="reg_pass" placeholder="password">
-					    </div>
-					    <div class="form-group">
-						    <label for="reg_pass_confirm" class="sr-only">Password Confirm</label>
-						    <input type="password" class="form-control" id="reg_pass_confirm" name="reg_pass_confirm" placeholder="confirm password">
-					    </div>
+    <!-- MAIN PICTURE THING -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Meet the Creators of myCorona</h1>
+                <hr>
+                <p>
+                    somethingsomething
+                </p>
+            </div>
+        </div>
+    </header>
 
-					    <div class="form-group">
-						    <label for="reg_email" class="sr-only">Email</label>
-						    <input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
-					    </div>
-					    <div class="form-group">
-						    <label for="reg_fullname" class="sr-only">Full Name</label>
-						    <input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
-					    </div>
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Innovation Institute</h2>
+                    <p class="text-faded">
+                        something something
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				    </div>
-				    <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
-			    </div>
-			    <div class="etc-login-form">
-				    <p>already have an account? <a href="login.html">login here</a></p>
-			    </div>
-		    </form>
-	    </div>
-	    <!-- end:Main Form -->
-    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">The Makers</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <h3>Allyssa Tiara</h3>
+                        <p class="text-muted">
+                            some info on allyssa
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <h3>Ekta Rana</h3>
+                        <p class="text-muted">
+                            some info on ekta
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <h3>Sarah Chen</h3>
+                        <p class="text-muted">
+                            some info on sarah
+                        </p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
 
 </body>
+
 </html>
