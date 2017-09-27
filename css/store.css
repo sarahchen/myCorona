@@ -1,0 +1,17 @@
+.offer-box {
+    margin: 30px;
+    vertical-align: middle;
+    background-color: #000;
+    min-width: 20%;
+    min-height: 20%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #C8C8C8;
+}
+
+.offer-box h3 {
+    color: #404040;
+}

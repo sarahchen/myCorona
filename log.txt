@@ -19,3 +19,24 @@ http://bootsnipp.com/snippets/featured/custom-login-registration-amp-forgot-pass
     Add Content
     Add Meet Creators page
     Improve SignUp
+7-26-15
+    Finish Sign Up
+    Finish Login
+    Finish Logout
+    Add pictures
+Some Date
+    Add profile page
+9-12-15
+    Move text data to MYSQL server
+9-13-15
+    Finish Login and Registration for MYSQL
+    Start Profile
+9-20-15
+    Fix Login and Registration
+    Add data retrival on Profile
+    Add img capabilities on Profile
+    Finish editProfile
+    Finish editStore
+    Add data retrival on Store
+    Add img capabilities on Store
+9-26-15

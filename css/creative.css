@@ -178,7 +178,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,6 +190,18 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+}
+
+header .header-content-inner2 {
+    margin: auto;
+    vertical-align: middle;
+    background-color: #000;
+    min-width: 20%;
+    min-height: 20%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 header .header-content .header-content-inner h1 {
@@ -473,4 +484,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
